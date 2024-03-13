@@ -9,7 +9,9 @@ const bol =document.querySelector('.boll');
 const container =document.querySelector('.container');
 
     bol.style.left = positionX + 'px';
+    bol.style.right = positionX + 'px';
     bol.style.top = positionY + 'px';
+    bol.style.bottom = positionY + 'px';
     positionX =  positionX + diffX;
     positionY =  positionY + diffY;
     if (positionX >= container.clientWidth -20 || positionX < 1) {       
